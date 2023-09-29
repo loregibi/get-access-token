@@ -1,0 +1,38 @@
+{
+  "WebService" : {
+    "wsHostname" : "172.17.2.119",
+    "wsPort" : "7575"
+  },
+  "TrustedControlBlock" : {
+    "Type" : "openstack",
+    "IdentityServiceIp" : "172.17.2.119",
+    "IdentityServicePort" : "5000",
+    "IdentityServiceUserName" : "e1d16f8ce3e84cbd95f9dbe2a3905755",
+    "IdentityServiceUserPassword" : "2027bd1893a8471a",
+    "IdentityServiceIdProject" : "89f318d9c0374a74ad7c59bd3821dde7"
+  },
+  "Various" : {
+    "WorkFolder" : "C:\\Users\\acs\\Documents\\Universita\\Tesi\\SSME-Maffa\\SSME-ClientPut\\output",
+    "dimMByte" : "1"
+  },
+  "Criptograpy" : {
+    "AES256PasswordFileEncryption" : "qwertyuiopasdfgh",
+    "AES256PasswordHttpEncryption" : "jklzxcvbnmqwerty",
+    "RSAPublicKey" : "C:\\Users\\acs\\Documents\\Universita\\Tesi\\SSME-Maffa\\SSME-ClientPut\\chiavi\\public_key.txt"
+  },
+  "OpenStack" : [ {
+    "Name" : "riccardo",
+    "OpenStackUser" : "3a92df8bad004c0ca673907d0666645f",
+    "OpenStackPassword" : "3jCXPKAws2nwaKMwWXPutpFd",
+    "OpenStackTenant" : "89f318d9c0374a74ad7c59bd3821dde7",
+    "OpenStackUrl" : "http://172.17.2.119:5000"
+  }, {
+    "Name" : "qui",
+    "OpenStackUser" : "9202bc50585d4be18844ae1eb277d615",
+    "OpenStackPassword" : "GUYAfp7aLQEwCQ5x",
+    "OpenStackTenant" : "dcc82fb52bcd46f68992932a8094da58",
+    "OpenStackUrl" : "http://172.17.2.119:5000"
+  } ],
+  "Dropbox" : [  ],
+  "GoogleDrive" : [  ]
+}
