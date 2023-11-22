@@ -10,8 +10,8 @@ import java.io.IOException;
 import java.security.GeneralSecurityException;
 
 public class MainController {
-    private MainModel mainModel;
-    private MainView mainView;
+    private final MainModel mainModel;
+    private final MainView mainView;
 
     public MainController(MainModel mainModel, MainView mainView) {
         this.mainModel = mainModel;

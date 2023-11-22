@@ -11,8 +11,8 @@ import java.io.*;
 import java.util.Iterator;
 
 public class GoogleDriveController {
-    private GoogleDriveModel googleDriveModel;
-    private GoogleDriveView googleDriveView;
+    private final GoogleDriveModel googleDriveModel;
+    private final GoogleDriveView googleDriveView;
 
     private final String jsonFileName = "SSME-Client-Configuration.json";
 

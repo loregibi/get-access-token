@@ -10,8 +10,8 @@ import java.awt.event.ActionListener;
 import java.io.IOException;
 
 public class DropboxView extends JFrame {
-    private JButton authorizeButton;
-    private JLabel statusLabel;
+    private final JButton authorizeButton;
+    private final JLabel statusLabel;
 
     public DropboxView() {
         DropboxModel dropboxModel = new DropboxModel();

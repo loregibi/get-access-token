@@ -11,8 +11,8 @@ import java.io.IOException;
 import java.security.GeneralSecurityException;
 
 public class GoogleDriveView extends JFrame {
-    private JButton authorizeButton;
-    private JLabel statusLabel;
+    private final JButton authorizeButton;
+    private final JLabel statusLabel;
 
     public GoogleDriveView() throws GeneralSecurityException, IOException {
         GoogleDriveModel googleDriveModel = new GoogleDriveModel();

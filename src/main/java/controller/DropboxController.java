@@ -12,8 +12,8 @@ import java.io.*;
 import java.util.Iterator;
 
 public class DropboxController {
-    private DropboxModel dropboxModel;
-    private DropboxView dropboxView;
+    private final DropboxModel dropboxModel;
+    private final DropboxView dropboxView;
 
     private final String jsonFileName = "SSME-Client-Configuration.json";
 
