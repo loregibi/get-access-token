@@ -13,9 +13,9 @@ import java.util.Arrays;
 import java.util.List;
 
 public class GoogleDriveModel {
-
-    private static final String CLIENT_ID = "41430236977-ar09m3jejb5o5u5a6t26bc01g7nmkatb.apps.googleusercontent.com";
-    private static final String CLIENT_SECRET = "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";
+    private static ConfigLoader cf = new ConfigLoader();
+    private static final String CLIENT_ID = cf.getClientID();
+    private static final String CLIENT_SECRET = cf.getClientSecret();
     private static final List<String> SCOPES = Arrays.asList("https://www.googleapis.com/auth/drive");
     private static final String REDIRECT_URI = "urn:ietf:wg:oauth:2.0:oob";
 

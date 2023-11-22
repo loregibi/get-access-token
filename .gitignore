@@ -11,6 +11,8 @@ target/
 *.iws
 *.iml
 *.ipr
+src/config.properties
+src/main/resources/SSME-Client-Configuration.json
 
 ### Eclipse ###
 .apt_generated
